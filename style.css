@@ -22,6 +22,7 @@ body {
     font-family: var(--font);
     font-size: 16px;
     font-weight: 400;
+    line-height: 32px;
     overflow-x: hidden; /* para não rolar a página para o lado, ao esconder o sidebar*/
 }
 
