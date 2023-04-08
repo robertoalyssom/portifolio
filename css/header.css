@@ -1,0 +1,53 @@
+/* Mobile */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem;
+    box-shadow: 2px 2px 1px rgb(202, 202, 202);
+}
+
+.logo {
+    width: 14rem;
+}
+
+.fa-bars {
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.logo, .fa-bars {
+    margin: 0 .8rem;
+}
+
+.navbar {
+    position: absolute;
+    height: 100vh;
+    width: 60vw;
+    right: -230px;
+    background-color: red;
+    transition: .4s ease-in;
+}
+
+.active {
+    right: 0;
+    transition: .8s ease-in-out;
+}
+
+.navbar li {
+    padding: 10px 45.4px 10px 40px;
+}
+
+.navbar li:hover {
+    border-left: 6px solid var(--red);
+    padding-left: 34px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: var(--red);
+}
+
+.header a {
+    color: var(--black);
+}

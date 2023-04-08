@@ -1,0 +1,30 @@
+@import url('./css/header.css');
+@import url('./css/banner.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #EDEDED;
+    --dark-grey: #444444;
+    --black: #171717;
+    --black-dar-mode: #0F0F0F;
+    --red: #DA0037;
+
+    --font: 'Open Sans', 'sans serif';
+}
+
+body {
+    background-color: var(--white);
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden; /* para não rolar a página para o lado, ao esconder o sidebar*/
+}
+
+a {
+    text-decoration: none;
+}
