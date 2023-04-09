@@ -1,10 +1,9 @@
-/* Mobile */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: .8rem;
-    box-shadow: 2px 2px 1px rgb(202, 202, 202);
+    box-shadow: 2px 2px 1px rgb(202, 202, 202); /* shadow ok! It need to add more elements after header a nav */
 }
 
 .logo {
@@ -19,41 +18,3 @@
 .logo, .fa-bars {
     margin: 0 .8rem;
 }
-
-.navbar {
-    position: absolute;
-    height: 100vh;
-    width: 60vw;
-    right: -230px;
-    /* background-color: orange; */
-    transition: .4s ease-in;
-    box-shadow: -2px 2px 3px rgb(202, 202, 202);
-}
-
-.active {
-    right: 0;
-    transition: .8s ease-in-out;
-}
-
-.navbar li {
-    padding: 10px 45.4px 10px 40px;
-    box-sizing: border-box;
-}
-
-.navbar li:hover {
-    border-left: 6px solid var(--red);
-    padding-left: 34px;
-    font-weight: 600;
-}
-
-.navbar a:hover {
-    color: var(--red);
-}
-
-.navbar-link {
-    color: var(--black);
-}
-
-/* .header a {
-    color: var(--black);
-} */
