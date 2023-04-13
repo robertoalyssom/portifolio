@@ -1,17 +1,49 @@
+
+
 .banner {
     background-image: url(../img/banner/banner-mobile.PNG);
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 92vh;
+}
 
-    color: orange;
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+}
+
+.banner-title {
+    font-size: 2.2rem;
+    font-weight: 400px;
+    line-height: 3.3rem;
+}
+
+.banner-subtitle {
+    color: var(--grey);
+    font-size: 2rem;
+    line-height: 2.7rem;
+    margin-bottom: 1.3rem;
+}
+
+.banner-text {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.button {
+    margin: 1.7rem 0;
 }
 
 .banner-img {
-    position: absolute;
-    width: 100%;
-    height: 90vh;
-    z-index: -1;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1.2rem;
+    border-radius: 100%;
 }
-
