@@ -6,6 +6,10 @@
     box-shadow: 2px 2px 1px rgb(202, 202, 202); /* shadow ok! It need to add more elements after header a nav */
 }
 
+.header-logo a {
+    display: flex;
+}
+
 .logo {
     width: 14rem;
 }

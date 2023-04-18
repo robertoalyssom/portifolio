@@ -3,15 +3,16 @@
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 92vh; /*** IT NEED 1 2 MORE HEIGHT ***/
     position: relative;
+    color: var(--white);
 }
 
 .banner-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 92%;
     height: 82vh;
     margin: 0 auto;
@@ -28,7 +29,7 @@
     color: var(--grey);
     font-size: 1.8rem;
     line-height: 2.7rem;
-    /* margin-bottom: .6rem; */
+    margin: .5rem 0 1rem 0;
 }
 
 .banner-text {
@@ -37,12 +38,17 @@
     text-align: center;
 }
 
-.button {
-    margin: 1.5rem 0;
+.banner-button {
+    padding: .8rem 1.5rem;
+    margin: 1.5rem 0 2.3rem 0;
 }
 
 .banner-img {
-    width: 55%;
-    /* margin-top: .5rem; */
+    width: 70%; /*55*/
     border-radius: 100%;
+}
+
+.icon-down {
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
 }
