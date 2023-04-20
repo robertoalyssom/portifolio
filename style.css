@@ -2,6 +2,7 @@
 @import url('./styles/navbar.css');
 @import url('./styles/banner.css');
 @import url('./styles/about.css');
+@import url('./styles/abilities.css');
 
 * {
     margin: 0;

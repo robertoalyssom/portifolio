@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" href="./img/icons/letra-r (1).png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -58,6 +59,70 @@
             <img src="./img/about/about-mobile.PNG" alt="duas mãos digitando no teclado do notebook" class="about-img">
     </section>
 
+    <section class="abilities">
+        <h3 class="abilities-title">Habilidades</h3>
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="abilities-card">
+                    <img src="./img/abilities/html-logo.png" alt="html logo" class="abilities-card__img">
+                    <h4 class="abilities-card__title">HTML</h4>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="abilities-card">
+                    <img src="./img/abilities/css-log.png" alt="html logo" class="abilities-card__img">
+                    <h4 class="abilities-card__title">CSS</h4>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="abilities-card">
+                    <img src="./img/abilities/js-logo.png" alt="html logo" class="abilities-card__img">
+                    <h4 class="abilities-card__title">JavaScript</h4>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="abilities-card">
+                    <img src="./img/abilities/git-logo.png" alt="html logo" class="abilities-card__img img-git">
+                    <h4 class="abilities-card__title">Git</h4>
+                </div>
+            </div>
+            ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <!-- <section class="abilities">
+        <h3 class="abilities-title">Habilidades</h3>
+        <div class="abilities-card">
+            <img src="./img/abilities/html-logo.png" alt="html logo" class="abilities-card__img">
+            <h4 class="abilities-card__title">HTML</h4>
+        </div>
+        <div class="abilities-card">
+            <img src="./img/abilities/css-log.png" alt="html logo" class="abilities-card__img">
+            <h4 class="abilities-card__title">CSS</h4>
+        </div>
+        <div class="abilities-card">
+            <img src="./img/abilities/js-logo.png" alt="html logo" class="abilities-card__img">
+            <h4 class="abilities-card__title">JavaScript</h4>
+        </div>
+        <div class="abilities-card">
+            <img src="./img/abilities/git-logo.png" alt="html logo" class="abilities-card__img img-git">
+            <h4 class="abilities-card__title">Git</h4>
+        </div>
+    </section> -->
+
     <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
 </body>
 </html>
