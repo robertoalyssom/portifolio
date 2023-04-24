@@ -1,6 +1,5 @@
 .abilities {
-    margin: 0 1rem;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     text-align: center;
 }
 
@@ -13,12 +12,10 @@
 /* Swiper */
 .swiper {
     width: 100%;
-    height: 350px;
 }
 
 .swiper-slide {
     display: flex;
-    text-align: center;
     align-items: center;
     justify-content: center;
 }
@@ -44,7 +41,7 @@
 /* Card */
 .abilities-card {
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 3.5rem;
 }
 
 .abilities-card__img {
