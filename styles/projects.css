@@ -4,6 +4,17 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    position: relative;
+}
+
+.projects::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 100vw;
+    height: 4px;
+    background-color: var(--red);
+    top: -25px;
 }
 
 /* Swiper */
@@ -24,7 +35,7 @@
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
 }
 
 .swiper-pagination {
@@ -42,7 +53,6 @@
     background-color: var(--dark-grey);
     margin-bottom: 3.5rem;
     border-radius: 7px;
-    box-shadow: ;
 }
 
 .projects-card__img {
@@ -80,8 +90,12 @@
 }
 
 .card-description__link {
-    font-size: 2.4rem;
-    margin-left: .7rem;
-    text-decoration: none;
+    font-size: 2.8rem;
+    margin-left: 1rem;
     color: var(--white);
+}
+
+.projects-button {
+    padding: .8rem 1.5rem;
+    margin: 0 0 2rem 0;
 }
