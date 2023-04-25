@@ -9,35 +9,6 @@
     line-height: 2.7rem;
 }
 
-/* Swiper */
-.swiper {
-    width: 100%;
-}
-
-.swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-    color: var(--red);
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-    font-size: 2rem;
-}
-
-.swiper-pagination {
-    margin-bottom: .5rem;
-}
-
-.swiper-pagination-bullet-active {
-    background: var(--red);
-}
-
 /* Card */
 .abilities-card {
     position: relative;

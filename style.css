@@ -3,6 +3,7 @@
 @import url('./styles/banner.css');
 @import url('./styles/about.css');
 @import url('./styles/abilities.css');
+@import url('./styles/swiper.css');
 @import url('./styles/projects.css');
 
 * {

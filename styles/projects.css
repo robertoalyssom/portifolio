@@ -18,7 +18,7 @@
 }
 
 /* Swiper */
-.swiper {
+/* .swiper {
     width: 100%;
 }
 
@@ -44,7 +44,7 @@
 
 .swiper-pagination-bullet-active {
     background: var(--red);
-}
+} */
 
 /* Card */
 .projects-card {
