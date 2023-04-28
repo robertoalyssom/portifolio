@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .8rem;
+    padding: .8rem 1.3rem;
     box-shadow: 2px 2px 1px rgb(202, 202, 202); /* shadow ok! It need to add more elements after header a nav */
 }
 
@@ -19,6 +19,32 @@
     font-size: 2.5rem;
 }
 
-.logo, .fa-bars {
-    margin: 0 .8rem;
+.header-navegation {
+    display: none;
+}
+
+@media screen and (min-width: 770px) {
+    .header {
+        padding: .8rem 1.5rem;
+    }
+
+    .header-navbar-button {
+        display: none;
+    }
+
+    .header-navegation {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        font-size: 1.1rem;
+        border: 1px solid red;
+    }
+
+    .navegation-link {
+        color: var(--black);
+    }
+
+    .navegation-icon {
+        font-size: 1.5rem;
+    }
 }
