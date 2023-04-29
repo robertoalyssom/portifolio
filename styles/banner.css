@@ -12,7 +12,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
     width: 92%;
     height: 82vh;
     margin: 0 auto;
@@ -51,4 +50,51 @@
 .icon-down {
     margin-top: 1.5rem;
     font-size: 2.5rem;
+}
+
+@media screen and (min-width: 635px) {
+    .banner {
+        background-image: url(../img/banner/banner-tablet.PNG);
+        height: 94vh;
+    }
+
+    .banner-container {
+        width: 88%;
+        padding: 3.3rem 0;
+    }
+
+    .banner-button {
+        margin: 1.8rem 0 2.5rem 0;
+    }
+
+    .banner-img {
+        width: 55%;
+    }
+
+    .icon-down {
+        margin-top: 3rem;
+    }
+}
+
+/* tablet view */
+@media screen and (min-width: 764px) {
+    .banner {
+        height: 95vh;
+    }
+
+    .banner-container {
+        gap: .2rem;
+    }
+
+    .banner-title {
+        font-size: 2.8rem;
+    }
+
+    .banner-subtitle {
+        font-size: 2.5rem;
+    }
+
+    .banner-img {
+        width: 72%;
+    }
 }
