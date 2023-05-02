@@ -21,7 +21,7 @@
 .projects-card {
     width: 76%;
     position: relative;
-    background-color: var(--dark-grey);
+    background-color: var(--black);
     margin-bottom: 3.5rem;
     border-radius: 7px;
 }
@@ -69,4 +69,24 @@
 .projects-button {
     padding: .8rem 1.5rem;
     margin: 0 0 2rem 0;
+}
+
+/* tablet view */
+@media screen and (min-width: 764px) {
+    .projects {
+        margin: 0 4rem;
+        padding: 3rem 0;
+    }
+
+    .projects-card {
+        width: 70%;
+    }
+
+    .card-description {
+        padding: .5rem 2rem 1.3rem 2rem;
+    }
+
+    .card-description__link {
+        margin-left: 1.5rem;
+    }
 }

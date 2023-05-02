@@ -6,6 +6,7 @@
 
 .abilities-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
 }
@@ -51,4 +52,16 @@
 .abilities-card__title {
     font-size: 1.5rem;
     line-height: 1.8rem;
+}
+
+@media screen and (min-width: 764px) {
+    .abilities {
+        margin: 0 3.5rem;
+        padding: 4rem 0;
+    }
+
+    .abilities-title {
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
 }

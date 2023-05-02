@@ -13,4 +13,11 @@ const swiper = new Swiper(".swiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+
+  // breakpoints: {
+  //   640: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 10,
+  //   },
+  // },
 });
