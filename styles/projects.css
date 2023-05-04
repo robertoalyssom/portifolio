@@ -7,16 +7,6 @@
     position: relative;
 }
 
-.projects::before {
-    content: "";
-    display: inline-block;
-    position: relative;
-    width: 100vw;
-    height: 4px;
-    background-color: var(--red);
-    top: -25px;
-}
-
 /* Card */
 .projects-card {
     width: 76%;
@@ -71,6 +61,10 @@
     margin: 0 0 2rem 0;
 }
 
+.projects-container__desktop {
+    display: none;
+}
+
 /* tablet view */
 @media screen and (min-width: 764px) {
     .projects {
@@ -88,5 +82,20 @@
 
     .card-description__link {
         margin-left: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .projects {
+        margin: 0 7rem;
+        padding: 5rem 0;
+    }
+
+    .swiper {
+        display: none;
+    }
+
+    .projects-container__desktop {
+        display: block;
     }
 }

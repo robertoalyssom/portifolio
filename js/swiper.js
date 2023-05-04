@@ -21,3 +21,14 @@ const swiper = new Swiper(".swiper", {
   //   },
   // },
 });
+
+// const cardsListElements = document.querySelectorAll("[data-projectCard]");
+
+// cardsListElements.forEach((card) => {
+//   let slideElement = `<div class="swiper-slide">${card}</div>`;
+
+//   console.log(card);
+//   console.log(slideElement);
+
+//   swiper.appendSlide(slideElement);
+// });
