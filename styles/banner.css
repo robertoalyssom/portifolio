@@ -13,9 +13,13 @@
     flex-direction: column;
     align-items: center;
     width: 92%;
-    height: 82vh;
+    /* height: 82vh; */
     margin: 0 auto;
     padding: 1.5rem 0;
+}
+
+.banner-container__info {
+    text-align: center;
 }
 
 .banner-title {
@@ -42,6 +46,12 @@
     margin: 1.5rem 0 2.3rem 0;
 }
 
+.banner-container__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .banner-img {
     width: 70%; /*55*/
     border-radius: 100%;
@@ -56,6 +66,9 @@
     .banner {
         background-image: url(../img/banner/banner-tablet.PNG);
         height: 94vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .banner-container {
@@ -68,7 +81,7 @@
     }
 
     .banner-img {
-        width: 55%;
+        width: 45%;
     }
 
     .icon-down {
@@ -83,7 +96,7 @@
     }
 
     .banner-container {
-        gap: .2rem;
+        gap: 1rem;
     }
 
     .banner-title {
@@ -95,6 +108,43 @@
     }
 
     .banner-img {
-        width: 72%;
+        /* width: 45%; */
+        width: 300px;
+    }
+}
+
+/* desktop screen */
+@media screen and (min-width: 1440px) {
+    .banner-container {
+        flex-direction: row;
+    }
+
+    .banner-container {
+        width: 75%;
+        gap: 6rem;
+    }
+
+    .banner-container__info {
+        text-align: left;
+    }
+
+    .banner-text {
+        text-align: left;
+        margin: .9rem 0 1.8rem 0;
+    }
+
+    .banner-button {
+        margin: 0 0 0 10rem;
+    }
+
+    .banner-img {
+        width: 85%;
+        position: relative;
+    }
+
+    .icon-down {
+        position: absolute;
+        bottom: 10%;
+        left: 48%;
     }
 }
