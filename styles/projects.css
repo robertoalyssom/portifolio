@@ -96,6 +96,8 @@
     }
 
     .projects-container__desktop {
-        display: block;
+            display: flex;
+            gap: 3rem;
+            align-items: center;
     }
 }
