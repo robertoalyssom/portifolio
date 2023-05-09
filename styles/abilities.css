@@ -24,7 +24,9 @@
     padding: .7rem 0;
     width: 47%;
     border-radius: 5px;
-    box-shadow: 1px 1px 2px;
+    box-shadow: 1px 1px 2px var(--grey);
+    background-color: var(--full-white);
+    transition: .2s;
 }
 
 .card-html:hover,
@@ -86,7 +88,7 @@
         display: inline-block;
         position: absolute;
         width: 50vw;
-        height: 3px;
+        height: 1.2px;
         background-color: var(--red);
         top: 6rem;
         left: 50%;
@@ -97,9 +99,9 @@
         display: inline-block;
         position: absolute;
         width: 50vw;
-        height: 3px;
+        height: 2px;
         background-color: var(--red);
-        bottom: 10vh;
+        bottom: 8vh;
         right: 50%;
     }
 

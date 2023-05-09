@@ -5,14 +5,18 @@
     height: 100vh;
     width: 75%;
     left: -80vw;
+    top: 4.4rem;
     transition: .4s ease-in;
     box-shadow: 2px 2px 3px rgb(202, 202, 202);
     z-index: 1000;
     background-color: var(--white);
+    opacity: 0.96;
 }
 
 .active {
     left: 0;
+    top: 4.4rem;
+    position: fixed;
     transition: .8s ease-in-out;
 }
 

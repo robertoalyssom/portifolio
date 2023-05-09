@@ -30,7 +30,7 @@
 }
 
 .about-text {
-    margin: 1.1rem 0;
+    margin: 1rem 0;
 }
 
 .about-button {
@@ -63,7 +63,7 @@
 @media screen and (min-width: 1440px) {
     .about {
         margin: 0 7rem;
-        padding: 5rem 0;
+        padding: 2.5rem 0;
         gap: 3rem;
     }
 
@@ -74,6 +74,11 @@
 
     .about-img {
         margin: 0 0 0 0;
+        transition: .5s;
+    }
+
+    .about-img:hover {
+        transform: scale(1.05);
     }
 
     .about-title {

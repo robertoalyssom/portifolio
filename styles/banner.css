@@ -6,6 +6,7 @@
     height: 92vh; /*** IT NEED 1 2 MORE HEIGHT ***/
     position: relative;
     color: var(--white);
+    margin-top: 3rem;
 }
 
 .banner-container {
@@ -140,6 +141,21 @@
     .banner-img {
         width: 85%;
         position: relative;
+        transition: 1s;
+    }
+
+    @keyframes rotate {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(25deg); }
+        50% { transform: rotate(0deg); }
+        75% { transform: rotate(-25deg); }
+        100% { transform: rotate(0deg); }
+    }
+
+    .banner-img:hover {
+        animation-name: rotate;
+        animation-duration: .5s;
+        animation-timing-function: linear;
     }
 
     .icon-down {

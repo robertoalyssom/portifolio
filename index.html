@@ -25,7 +25,7 @@
 
         <!-- Mobile -->
         <div class="header-navbar-button">
-            <i class="fa-solid fa-bars header-icon" data-sidebarbutton></i>
+            <i class="fa-solid fa-bars header-icon" data-sidebarButton></i>
         </div>
 
         <ul class="header-navegation">
@@ -33,13 +33,13 @@
                 <a href="#" class="navegation-link">Home</a>
             </li>
             <li class="navegation-item">
-                <a href="#" class="navegation-link">Sobre</a>
+                <a href="#about" class="navegation-link">Sobre</a>
             </li>
             <li class="navegation-item">
-                <a href="#" class="navegation-link">Habilidades</a>
+                <a href="#abilities" class="navegation-link">Habilidades</a>
             </li>
             <li class="navegation-item">
-                <a href="#" class="navegation-link">Projetos</a>
+                <a href="#projects" class="navegation-link">Projetos</a>
             </li>
             <li class="navegation-item">
                 <a href="#" class="navegation-link">Contato</a>
@@ -52,9 +52,9 @@
 
     <nav class="navbar" data-sidebar>
         <a class="navbar-link" href="#">Home</a>
-        <a class="navbar-link" href="#">Sobre</a>
-        <a class="navbar-link" href="#">Habilidades</a>
-        <a class="navbar-link" href="#">Projetos</a>
+        <a class="navbar-link" href="#about">Sobre</a>
+        <a class="navbar-link" href="#abilities">Habilidades</a>
+        <a class="navbar-link" href="#projects">Projetos</a>
         <a class="navbar-link" href="#">Contato</a>
         <a class="navbar-link" href="#"><i class="fa-solid fa-moon navbar-icon"></i></a>
     </nav>
@@ -75,7 +75,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <h3 class="about-title">Sobre Mim</h3>
         <div class="about-container">
             <img src="./img/about/about-screens - cropped.png" alt="ilustraçã mostrando varias telas de varios tamanhos" class="about-img">
@@ -89,7 +89,7 @@
         </div>
     </section>
 
-    <section class="abilities">
+    <section class="abilities" id="abilities">
         <h3 class="abilities-title">Habilidades</h3>
         <div class="abilities-container">
             <div class="abilities-card card-html">
@@ -111,7 +111,7 @@
         </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <h3 class="abilities-title">Projetos</h3>
         
         <!-- Slider main container -->
@@ -181,7 +181,7 @@
 
         <!-- Desktop view -->
         <div class="projects-container__desktop">
-            <div class="projects-card" data-projectCard>
+            <div class="projects-card">
                 <img src="./img/backgrounds/abstract-timekeeper.png" alt="html logo" class="projects-card__img">
                 <div class="card-description">
                     <h4 class="card-description__title">Project 1</h4>
@@ -196,7 +196,7 @@
                     </div>
                 </div>
             </div>
-            <div class="projects-card" data-projectCard>
+            <div class="projects-card">
                 <img src="./img/backgrounds/abstract-timekeeper.png" alt="html logo" class="projects-card__img">
                 <div class="card-description">
                     <h4 class="card-description__title">Project 1</h4>
@@ -211,7 +211,22 @@
                     </div>
                 </div>
             </div>
-            <div class="projects-card" data-projectCard>
+            <div class="projects-card">
+                <img src="./img/backgrounds/abstract-timekeeper.png" alt="html logo" class="projects-card__img">
+                <div class="card-description">
+                    <h4 class="card-description__title">Project 1</h4>
+                    <div class="card-container__1">
+                        <p class="card-description__item">HTML</p>
+                        <p class="card-description__item">CSS</p>
+                        <p class="card-description__item">JavaScript</p>
+                    </div>
+                    <div class="card-container__2">
+                        <a href="#" class="card-description__link"><i class="fa-solid fa-up-right-from-square fa-sm"></i></a>
+                        <a href="#" class="card-description__link"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-card">
                 <img src="./img/backgrounds/abstract-timekeeper.png" alt="html logo" class="projects-card__img">
                 <div class="card-description">
                     <h4 class="card-description__title">Project 1</h4>
@@ -246,5 +261,6 @@
     <script src="./js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
+    <script src="./js/sandwich-icon-animation.js"></script>
 </body>
 </html>

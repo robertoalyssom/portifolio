@@ -22,6 +22,10 @@
     gap: 5rem;
 }
 
+.footer-link:hover {
+    color: var(--grey);
+}
+
 .footer-link_social-network {
     width: 23px;
 }

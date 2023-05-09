@@ -13,6 +13,7 @@
 }
 
 :root {
+    --full-white: #ffffff;
     --white: #EDEDED;
     --grey-cream: rgb(225, 225, 225);
     --grey: #939393;
@@ -20,12 +21,15 @@
     --black: #171717;
     --black-dark-mode: #0F0F0F;
     --red: #DA0037;
+    --red-lingth: #ff0018;
+    /* --red-lingth: #fa0035; */
 
     --font: 'Open Sans', 'sans serif';
 }
 
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -46,8 +50,16 @@ a {
 .button {
     color: var(--white);
     background-color: var(--red);
+    border: 2px solid var(--red);
     display: inline-block;
     border-radius: 5px;
     font-weight: 600;
     font-size: 1.2rem;
+    transition: .5s;
+}
+
+.button:hover {
+    /* background-color: var(--white); */
+    background: rgba(250, 250, 250, 0.03);
+    color: var(--red);
 }

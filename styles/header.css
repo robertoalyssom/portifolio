@@ -3,7 +3,14 @@
     justify-content: space-between;
     align-items: center;
     padding: .8rem 1.3rem;
-    box-shadow: 2px 2px 1px rgb(202, 202, 202); /* shadow ok! It need to add more elements after header a nav */
+    /* box-shadow: 0px 2px 1px var(--grey-cream); */
+    box-shadow: 0px 2px 1px rgb(202, 202, 202);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 95%;
+    background-color: var(--full-white);
+    z-index: 999;
 }
 
 .header-logo a {
@@ -14,9 +21,11 @@
     width: 13rem;
 }
 
-.fa-bars {
+/* .fa-bars */
+.header-icon {
     color: var(--black);
     font-size: 2.5rem;
+    margin-right: 15.5px;
 }
 
 .header-navegation {
@@ -26,6 +35,11 @@
 @media screen and (min-width: 770px) {
     .header {
         padding: .8rem 1.5rem;
+        width: 97%;
+    }
+
+    .header-logo {
+        margin-left: .8rem;
     }
 
     .header-navbar-button {
@@ -35,22 +49,25 @@
     .header-navegation {
         display: flex;
         align-items: center;
-        gap: 1.5rem;
+        /* gap: 1.5rem; */
         font-size: 1.1rem;
     }
 
     .navegation-link {
         color: var(--black);
         font-weight: 400;
+        padding: 1.2rem .8rem;
+        transition: .35s;
+    }
+
+    .navegation-link:hover {
+        padding-bottom: 15px;
+        border-bottom: 5px solid var(--red);
+        color: var(--red);
+        
     }
 
     .navegation-icon {
         font-size: 1.5rem;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .header {
-        padding: .8rem 3rem;
     }
 }
