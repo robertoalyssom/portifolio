@@ -24,7 +24,7 @@
     padding: .7rem 0;
     width: 47%;
     border-radius: 5px;
-    box-shadow: 1px 1px 2px var(--grey);
+    box-shadow: 1px 1px 4px var(--grey);
     background-color: var(--full-white);
     transition: .2s;
 }
@@ -32,14 +32,17 @@
 .card-html:hover,
 .card-git:hover {
     background-color: rgb(255, 223, 195);
+    color: var(--black);
 }
 
 .card-css:hover {
     background-color: rgb(193, 227, 255);
+    color: var(--black);
 }
 
 .card-js:hover {
     background-color: rgb(255, 255, 183);
+    color: var(--black);
 }
 
 .abilities-card__img {
@@ -66,6 +69,14 @@
     .abilities-title {
         font-size: 2.5rem;
         margin-bottom: 2.5rem;
+    }
+
+    .abilities-container {
+        gap: 2rem;
+    }
+
+    .abilities-card {
+        width: 32%;
     }
 
     .img-git {

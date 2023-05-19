@@ -3,7 +3,7 @@
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 92vh; /*** IT NEED 1 2 MORE HEIGHT ***/
+    height: 92vh;
     position: relative;
     color: var(--white);
     margin-top: 3rem;
@@ -14,7 +14,6 @@
     flex-direction: column;
     align-items: center;
     width: 92%;
-    /* height: 82vh; */
     margin: 0 auto;
     padding: 1.5rem 0;
 }
@@ -82,7 +81,7 @@
     }
 
     .banner-img {
-        width: 45%;
+        width: 30%;
     }
 
     .icon-down {
@@ -109,8 +108,8 @@
     }
 
     .banner-img {
-        /* width: 45%; */
-        width: 300px;
+        width: 25%;
+        /* width: 300px; */
     }
 }
 
@@ -138,6 +137,7 @@
         margin: 0 0 0 10rem;
     }
 
+    /* img animation */
     .banner-img {
         width: 85%;
         position: relative;
@@ -154,7 +154,7 @@
 
     .banner-img:hover {
         animation-name: rotate;
-        animation-duration: .5s;
+        animation-duration: .3s;
         animation-timing-function: linear;
     }
 
