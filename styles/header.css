@@ -34,12 +34,8 @@
 
 @media screen and (min-width: 770px) {
     .header {
-        padding: 0 1.5rem;
+        padding: 0 2rem;
         height: 4rem;
-    }
-
-    .header-logo {
-        margin-left: .8rem;
     }
 
     .header-navbar-button {
@@ -62,6 +58,7 @@
         padding-bottom: 15px;
         border-bottom: 5px solid var(--red);
         color: var(--red);
+        transition: .3s;
     }
 
     .navegation-link:active {
