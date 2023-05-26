@@ -22,6 +22,10 @@
     gap: 5rem;
 }
 
+.footer-link {
+    transition: .3s;
+}
+
 .footer-link:hover {
     color: var(--grey);
 }
