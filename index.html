@@ -81,10 +81,16 @@
         <div class="about-container">
             <img src="./img/about/about-screens - cropped.png" alt="ilustraçã mostrando varias telas de varios tamanhos" class="about-img">
             <div class="about-container__info">
-                <p class="about-text">Eu sou um iniciante no desenvolvimento de front end e tenho experiência básica em HTML, CSS, JavaScript.</p> 
-                <p class="about-text">Eu estou muito animado para começar a desenvolver páginas da web com as últimas tecnologias e técnicas. Eu quero aprender e aplicar minhas habilidades para criar sites responsivos e profissionais.</p>      
-                <p class="about-text">Este site portfólio contém vários exemplos de meu trabalho ao longo dos últimos meses. Estou ansioso para compartilhar meus projetos e mostrar o que eu posso fazer.</p>
-                <p class="about-text">Espero que você goste e se divirta navegando por meus projetos. Por favor, sinta-se à vontade para falar comigo.</p>
+                <p class="about-text">Eu sou um iniciante no desenvolvimento de front end e tenho experiência básica em HTML, CSS, 
+                    JavaScript. Estou entusiasmado com a oportunidade de utilizar as mais recentes tecnologias e técnicas para criar páginas da web impressionantes. 
+                    Meu objetivo é aplicar essas habilidades no desenvolvimento de sites responsivos e profissionais.
+                </p> 
+                <p class="about-text">Este portfólio online apresenta uma coleção de exemplos de meu trabalho ao longo dos últimos meses.
+                    Estou ansioso para compartilhar meus projetos e demonstrar minha capacidade criativa.
+                </p>      
+                <p class="about-text">Convido você a explorar meus projetos neste site e espero que encontre inspiração e satisfação ao fazê-lo. 
+                    Sinta-se à vontade para entrar em contato comigo para qualquer dúvida ou feedback adicional. Estou ansioso para colaborar com você.
+                </p>
                 <a href="#" class="button about-button" id="contact-button">Contato</a>
             </div>
         </div>
@@ -257,15 +263,15 @@
                 <div class="form-container">
                     <fieldset class="form-field">
                         <label for="name" class="form-label">Nome completo</label>
-                        <input type="text" name="name" placeholder="Nome completo aqui" id="name" class="form-input" minlength="5">
+                        <input type="text" name="name" placeholder="Nome completo aqui" id="name" class="form-input" minlength="5" required>
                     </fieldset>
                     <fieldset class="form-field">
                         <label for="email" class="form-label">E-mail</label>
-                        <input type="email" name="email" placeholder="Ex: meu@email.com" id="email" class="form-input" minlength="10">
+                        <input type="email" name="email" placeholder="Ex: meu@email.com" id="email" class="form-input" minlength="10" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
                     </fieldset>
                     <fieldset class="form-field">
                         <label for="message" class="form-label">Mensagem</label>
-                        <textarea type="text" name="text" placeholder="Digite uma mensagem aqui..." id="message" class="form-input textarea-input" minlength="5"></textarea>
+                        <textarea type="text" name="text" placeholder="Digite uma mensagem aqui..." id="message" class="form-input textarea-input" minlength="15" required></textarea>
                     </fieldset>
                 </div>
                 <div>
