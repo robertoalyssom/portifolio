@@ -46,10 +46,10 @@ function changeImage(element) {
   let containsDarkModeClassInBody =
     document.body.classList.contains("dark-mode");
 
-  logoImgElement.src = "./img/logo/logo-preto.png";
+  logoImgElement.src = "/img/logo/logo-preto.png";
 
   if (containsDarkModeClassInBody) {
-    logoImgElement.src = "./img/logo/logo-branco.png";
+    logoImgElement.src = "/img/logo/logo-branco.png";
   }
 }
 

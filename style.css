@@ -8,6 +8,7 @@
 @import url('./styles/footer.css');
 @import url('./styles/dark-mode.css');
 @import url('./styles/contact.css');
+@import url('./styles/projects-page.css');
 
 * {
     margin: 0;
