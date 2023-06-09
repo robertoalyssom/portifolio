@@ -1,5 +1,5 @@
-import { takeProjects } from "/js/projects/conectData.js";
-import { cardMaker } from "/js/projects/cardMaker.js";
+import { takeProjects } from "./conectData.js";
+import { cardMaker } from "./cardMaker.js";
 
 const projectsSection = document.getElementById("projects");
 

@@ -1,9 +1,11 @@
-async function takeProjects() {
-  const response = await fetch("/js/projects/data.json");
-  const projectsList = await response.json(); // extraindo dados json da resposta
-  let pageLocation = document.location.pathname;
+const projectsContainer = document.querySelector("[data-projectsLocation]");
 
-  if (pageLocation === "/" || pageLocation === "/index.html") {
+async function takeProjects() {
+  const response = await fetch("../js/projects/data.json");
+  const projectsList = await response.json(); // extraindo dados json da resposta
+  const projectsDatasetValue = projectsContainer.dataset.projectslocation;
+
+  if (projectsDatasetValue === "homepage") {
     const firstFourProjects = projectsList.slice(0, 4);
 
     return firstFourProjects;
@@ -13,3 +15,5 @@ async function takeProjects() {
 }
 
 export { takeProjects };
+
+// CRIAR FUNÇÃO SE SEPARAR PROJETOS NO WRITEcARDS.json
