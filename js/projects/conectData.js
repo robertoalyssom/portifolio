@@ -16,4 +16,4 @@ async function takeProjects() {
 
 export { takeProjects };
 
-// CRIAR FUNÇÃO SE SEPARAR PROJETOS NO WRITEcARDS.json
+// atentar com caminho no response,  provavelmente apagar apagar e refazer último commit
