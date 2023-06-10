@@ -2,6 +2,7 @@ const projectsContainer = document.querySelector("[data-projectsLocation]");
 
 async function takeProjects() {
   const response = await fetch("../js/projects/data.json");
+  console.log(response);
   const projectsList = await response.json(); // extraindo dados json da resposta
   const projectsDatasetValue = projectsContainer.dataset.projectslocation;
 
@@ -16,4 +17,4 @@ async function takeProjects() {
 
 export { takeProjects };
 
-// CRIAR FUNÇÃO SE SEPARAR PROJETOS NO WRITEcARDS.json
+// atentar com caminho no response,  provavelmente apagar e refazer último commit
