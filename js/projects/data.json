@@ -16,6 +16,7 @@
     {
         "title": "Número Secreto",
         "image" : "../../img/projects/numero-secreto-cover.PNG",
+
         "technologies": ["HTML", "CSS", "JavaScript"],
         "link": "https://robertoalyssom.github.io/numero-secreto/",
         "repoLink": "https://github.com/robertoalyssom/numero-secreto"
