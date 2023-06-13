@@ -3,8 +3,8 @@ import { cardMaker } from "./cardMaker.js";
 
 const projectsSection = document.getElementById("projects");
 
-async function writeCards() {
-  const data = await takeProjects();
+function writeCards() {
+  const data = takeProjects();
 
   data.forEach((project) => {
     projectsSection.appendChild(

@@ -1,20 +1,13 @@
+import data from "./data.js";
+
 const projectsContainer = document.querySelector("[data-projectsLocation]");
 
-async function takeProjects() {
-  const response = await fetch("../js/projects/data.json");
-  console.log(response);
-  const projectsList = await response.json(); // extraindo dados json da resposta
+function takeProjects() {
   const projectsDatasetValue = projectsContainer.dataset.projectslocation;
+  const firstFourProjects = data.slice(0, 4);
 
-  if (projectsDatasetValue === "homepage") {
-    const firstFourProjects = projectsList.slice(0, 4);
-
-    return firstFourProjects;
-  } else {
-    return projectsList;
-  }
+  if (projectsDatasetValue === "homepage") return firstFourProjects;
+  return data;
 }
 
 export { takeProjects };
-
-// atentar com caminho no response,  provavelmente apagar e refazer último commit
