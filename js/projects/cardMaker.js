@@ -1,8 +1,11 @@
+const projectsContainer = document.querySelector("[data-projectsLocation]");
+
 function cardMaker(image, title, technologies, link, repoLink) {
   const card = document.createElement("div");
   card.classList = "projects-card";
+
   card.innerHTML = `
-          <img src="${image}" alt="test" class="projects-card__img">
+          <img src="${startPath()}${image}" alt="test" class="projects-card__img">
           <div class="card-description" data-darkMode="card">
             <h4 class="card-description__title">${title}</h4>
             <div class="card-container__1 id="tecnologies">
@@ -16,6 +19,13 @@ function cardMaker(image, title, technologies, link, repoLink) {
       `;
 
   return card;
+}
+
+function startPath() {
+  let projectsDatasetValue = projectsContainer.dataset.projectslocation;
+
+  if (projectsDatasetValue === "homepage") return ".";
+  return "..";
 }
 
 function writeTecnologies(technologies) {
