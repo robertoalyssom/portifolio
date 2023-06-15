@@ -31,17 +31,17 @@
 
 .card-html:hover,
 .card-git:hover {
-    background-color: rgb(255, 223, 195);
+    background-color: var(--light-orange);
     color: var(--black);
 }
 
 .card-css:hover {
-    background-color: rgb(193, 227, 255);
+    background-color: var(--light-blue);
     color: var(--black);
 }
 
 .card-js:hover {
-    background-color: rgb(255, 255, 183);
+    background-color: var(--light-yellow);
     color: var(--black);
 }
 
@@ -63,9 +63,7 @@
     .abilities {
         margin: 0 3.5rem;
         position: relative;
-        /* padding: 4rem 0; */
         padding: 10.1rem 0;
-        /* height: 95vh; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -91,14 +89,15 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 992px) {
     .abilities {
-        margin: 0 7rem;
-        /* height: 85vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
+        margin: 0 2.5rem
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .abilities {
+        margin: 0 4rem;
     }
 
     .abilities::before {

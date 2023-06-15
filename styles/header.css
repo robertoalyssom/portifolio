@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: .8rem 1.3rem;
-    box-shadow: .5px .5px 1px #767676/*rgb(202, 202, 202)*/;
+    box-shadow: .5px .5px 1px #767676;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -15,6 +15,7 @@
 
 .header-logo a {
     display: flex;
+    margin-left: .8rem;
 }
 
 .logo {
@@ -25,7 +26,6 @@
 .header-icon {
     color: var(--black);
     font-size: 2.5rem;
-    /* margin-right: 15.5px; */
     transition: .8s;
 }
 
@@ -74,5 +74,11 @@
 
     .navegation-icon {
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header {
+        padding: 0 4rem;
     }
 }

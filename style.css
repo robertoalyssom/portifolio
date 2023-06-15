@@ -24,6 +24,9 @@
     --black: #171717;
     --black-dark-mode: #0F0F0F;
     --red: #DA0037;
+    --light-orange: rgb(255, 223, 195);
+    --light-yellow: rgb(255, 255, 183);
+    --light-blue: rgb(193, 227, 255);
 
     --font: 'Open Sans', 'sans serif';
 }

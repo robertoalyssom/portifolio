@@ -102,7 +102,12 @@
     color: var(--red);
 }
 
-/* tablet */
+@media screen and (min-width: 380px) {
+    .contact-card__icon {
+        top: 4%
+    }
+}
+
 @media screen and (min-width: 764px) {
     .contact-card {
         width: 500px;

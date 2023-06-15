@@ -53,13 +53,13 @@
 }
 
 .banner-img {
-    width: 70%; /*55*/
+    width: 207px;
     border-radius: 100%;
 }
 
 .icon-down {
     margin-top: 1.5rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 @media screen and (min-width: 635px) {
@@ -89,7 +89,6 @@
     }
 }
 
-/* tablet view */
 @media screen and (min-width: 764px) {
     .banner {
         height: 95vh;
@@ -113,8 +112,7 @@
     }
 }
 
-/* desktop screen */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 992px) {
     .banner-container {
         flex-direction: row;
     }

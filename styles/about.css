@@ -39,7 +39,6 @@
     margin: .5rem 0;
 }
 
-/* tablet view */
 @media screen and (min-width: 764px) {
     .about {
         margin: 0 3.5rem;
@@ -60,20 +59,45 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 992px) {
     .about {
-        margin: 0 7rem;
+        margin: 0 4rem;
+        padding: 2.5rem 0;
+        gap: 2rem;
+    }
+
+    .about-title {
+        margin-top: 1.5rem;
+    }
+
+    .about-container {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .about-img {
+        width: 45%;
+    }
+
+    .about-text {
+        margin: .5rem 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about {
+        margin: 0 5rem;
         padding: 2.5rem 0;
         gap: 3rem;
     }
 
     .about-container {
         flex-direction: row;
-        gap: 6.5rem;
+        gap: 4.5rem;
     }
 
     .about-img {
-        width: 100%;
+        width: 50%;
         margin: 0 0 0 0;
         transition: .5s;
     }
