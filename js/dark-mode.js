@@ -42,15 +42,14 @@ function changeIcon(button) {
 }
 
 function changeImage(element) {
-  let logoImgElement = element.firstElementChild.firstElementChild.firstChild;
-  let containsDarkModeClassInBody =
-    document.body.classList.contains("dark-mode");
-  let blackLogo = "../img/logo/logo-preto.png";
-  let whiteLogo = "../img/logo/logo-branco.png";
+  const logoImgElement = element.firstElementChild.firstElementChild.firstChild;
+  let bodyContainsDarkMode = document.body.classList.contains("dark-mode");
+  let blackLogo = `${definePath()}img/logo/logo-preto.png`;
+  let whiteLogo = `${definePath()}img/logo/logo-branco.png`;
 
   logoImgElement.src = blackLogo;
 
-  if (containsDarkModeClassInBody) {
+  if (bodyContainsDarkMode) {
     logoImgElement.src = whiteLogo;
   }
 }
@@ -61,4 +60,9 @@ function bgBlack(element) {
 
 function bgGrey(element) {
   element.classList.toggle("dark-mode__bg-grey");
+}
+
+function definePath() {
+  if (document.body.dataset.bodylocation === "homepage") return "./";
+  return "../";
 }

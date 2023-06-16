@@ -58,6 +58,4 @@ const data = [
   },
 ];
 
-console.log(data[0].image);
-
 export default data;
