@@ -3,10 +3,12 @@
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     position: relative;
     color: var(--white);
-    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-container {
@@ -58,17 +60,14 @@
 }
 
 .icon-down {
-    margin-top: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 35px;
 }
 
 @media screen and (min-width: 635px) {
     .banner {
         background-image: url(../img/banner/banner-tablet.PNG);
-        height: 94vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .banner-container {
@@ -85,15 +84,12 @@
     }
 
     .icon-down {
-        margin-top: 3rem;
+        font-size: 2rem;
+        bottom: 45px;
     }
 }
 
 @media screen and (min-width: 764px) {
-    .banner {
-        height: 95vh;
-    }
-
     .banner-container {
         gap: 1rem;
     }
@@ -108,7 +104,6 @@
 
     .banner-img {
         width: 25%;
-        /* width: 300px; */
     }
 }
 
@@ -157,8 +152,9 @@
     }
 
     .icon-down {
-        position: absolute;
         bottom: 10%;
         left: 48%;
+        margin-top: 1.5rem;
+        font-size: 2rem;
     }
 }

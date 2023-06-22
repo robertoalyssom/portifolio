@@ -3,12 +3,12 @@
     justify-content: space-between;
     align-items: center;
     padding: .8rem 1.3rem;
-    box-shadow: .5px .5px 1px #767676;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: var(--full-white);
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
     z-index: 999;
     box-sizing: border-box;
 }
@@ -24,9 +24,13 @@
 
 /* icon */
 .header-icon {
-    color: var(--black);
+    color: var(--white);
     font-size: 2.5rem;
     transition: .8s;
+}
+
+.header-icon:active {
+    color: var(--dark-grey);
 }
 
 .sandwich-animation-active {
@@ -55,7 +59,7 @@
     }
 
     .navegation-link {
-        color: var(--black);
+        color: var(--full-white);
         font-weight: 400;
         padding: 1.1rem .8rem;
     }
