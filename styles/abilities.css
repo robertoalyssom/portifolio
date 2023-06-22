@@ -108,7 +108,7 @@
         display: inline-block;
         position: absolute;
         width: 50vw;
-        height: 1.8px;
+        height: 2px;
         background-color: var(--red);
         top: 85px;
         left: 50%;

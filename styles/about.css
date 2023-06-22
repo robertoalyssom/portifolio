@@ -81,8 +81,13 @@
         width: 45%;
     }
 
+    .about-img:hover {
+        transform: scale(1.05);
+        transition: .5s;
+    }
+
     .about-text {
-        margin: .5rem 0;
+        margin: .7rem 0;
     }
 }
 
@@ -100,11 +105,6 @@
     .about-img {
         width: 50%;
         margin: 0 0 0 0;
-        transition: .5s;
-    }
-
-    .about-img:hover {
-        transform: scale(1.05);
     }
 
     .about-title {
