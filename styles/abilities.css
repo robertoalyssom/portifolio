@@ -34,7 +34,7 @@
 .card-css:hover,
 .card-js:hover {
     box-shadow: 0px 0px 103px 10px var(--red);
-    border: 1.2px solid var(--full-red);
+    border: 1.1px solid var(--full-red);
 }
 
 .card-html:hover,

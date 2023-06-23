@@ -12,8 +12,8 @@ function cardMaker(image, title, technologies, link, repoLink) {
               ${writeTecnologies(technologies)}
             </div>
             <div class="card-container__2">
-                <a href="${link}" target="_blank" class="card-description__link"><i class="fa-solid fa-up-right-from-square fa-sm"></i></a>
-                <a href="${repoLink}" target="_blank" class="card-description__link"><i class="fa-brands fa-square-github"></i></a>
+                <a href="${link}" target="_blank" class="card-description__link" aria-label="external link"><i class="fa-solid fa-up-right-from-square fa-sm"></i></a>
+                <a href="${repoLink}" target="_blank" class="card-description__link" aria-label="repository link"><i class="fa-brands fa-square-github"></i></a>
             </div>
           </div>
       `;

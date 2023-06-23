@@ -54,7 +54,7 @@ body {
 /* changing scrollbar page */
 body::-webkit-scrollbar {
     background-color: var(--black-dark-mode);
-    width: 10px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {

@@ -153,7 +153,6 @@
 @media screen and (min-width: 1200px) {
     .projects {
         margin: 0 5rem;
-        /* padding: 3.5rem 0; */
     }
 
     .swiper {
@@ -173,11 +172,6 @@
     .projects-card {
         width: 23%;
     }
-
-    /* .projects-card:hover {
-        transform: translatey(-.8rem);
-        box-shadow: 15px 15px 6px var(--wine);
-    } */
 
     .card-description {
         padding: .5rem  2rem 1.3rem 2rem;
