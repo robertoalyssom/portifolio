@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" href="../img/icons/letra-r (1).png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -20,7 +22,8 @@
 <body data-darkMode="bg-black">
     <header class="header" data-darkMode="bg-black">
         <div class="header-logo">
-            <a href="../index.html"><img src="../img/logo/logo-branco.png" alt="Imagem do logo Roberto Paiva" class="logo"></a>
+            <a href="../index.html"><img src="../img/logo/logo-branco.png" alt="Imagem do logo Roberto Paiva"
+                    class="logo"></a>
         </div>
 
         <!-- Mobile sandwich button-->
@@ -28,37 +31,28 @@
             <i class="fa-solid fa-bars header-icon" data-sandwichButton data-sidebarButton data-darkMode="font"></i>
         </div>
 
+        <!-- header links -->
         <ul class="header-navegation">
             <li class="navegation-item">
                 <a href="../index.html" class="navegation-link" data-darkMode="bg-black">Home</a>
             </li>
             <li class="navegation-item">
-                <a href="../index.html" class="navegation-link" data-darkMode="bg-black">Sobre</a>
-            </li>
-            <li class="navegation-item">
-                <a href="../index.html" class="navegation-link" data-darkMode="bg-black">Habilidades</a>
-            </li>
-            <li class="navegation-item">
-                <a href="#projects" class="navegation-link" data-darkMode="bg-black">Projetos</a>
-            </li>
-            <li class="navegation-item">
                 <a href="#" class="navegation-link" id="contact-button" data-darkMode="bg-black">Contato</a>
             </li>
         </ul>
-    </header>
 
-    <!-- navbar mobile -->
-    <nav class="navbar" data-sidebar data-darkMode="bg-black">
-        <a class="navbar-link" href="../index.html" data-darkMode="bg-black">Home</a>
-        <a class="navbar-link" href="../index.html/#about" data-darkMode="bg-black">Sobre</a>
-        <a class="navbar-link" href="../index.html/#abilities" data-darkMode="bg-black">Habilidades</a>
-        <a class="navbar-link" href="#" data-darkMode="bg-black">Projetos</a>
-        <a class="navbar-link" href="#" id="contact-button" data-darkMode="bg-black">Contato</a>
-    </nav>
+        <!-- navbar mobile -->
+        <nav class="navbar" data-sidebar data-darkMode="bg-black">
+            <a class="navbar-link" href="../index.html" data-darkMode="bg-black">Home</a>
+            <a class="navbar-link" href="#projects" data-darkMode="bg-black">Projetos - início</a>
+            <a class="navbar-link" href="#" id="contact-button" data-darkMode="bg-black">Contato</a>
+        </nav>
+    </header>
 
     <main class="projects-main">
         <h2 class="projects-title projects-page__title">Projetos</h2>
-        <div class="projects-page__container" id="projects" data-projectsLocation="projects-page"><!--js content--></div>
+        <div class="projects-page__container" id="projects" data-projectsLocation="projects-page"><!--js content-->
+        </div>
     </main>
 
     <section class="contact" data-contact>
@@ -71,15 +65,18 @@
                 <div class="form-container">
                     <fieldset class="form-field">
                         <label for="name" class="form-label">Nome completo</label>
-                        <input type="text" name="name" placeholder="Nome completo aqui" id="name" class="form-input" minlength="5" required>
+                        <input type="text" name="name" placeholder="Nome completo aqui" id="name" class="form-input"
+                            minlength="5" required>
                     </fieldset>
                     <fieldset class="form-field">
                         <label for="email" class="form-label">E-mail</label>
-                        <input type="email" name="email" placeholder="Ex: meu@email.com" id="email" class="form-input" minlength="10" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+                        <input type="email" name="email" placeholder="Ex: meu@email.com" id="email" class="form-input"
+                            minlength="10" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
                     </fieldset>
                     <fieldset class="form-field">
                         <label for="message" class="form-label">Mensagem</label>
-                        <textarea type="text" name="text" placeholder="Digite uma mensagem aqui..." id="message" class="form-input textarea-input" minlength="15" required></textarea>
+                        <textarea type="text" name="text" placeholder="Digite uma mensagem aqui..." id="message"
+                            class="form-input textarea-input" minlength="15" required></textarea>
                     </fieldset>
                 </div>
                 <div>
@@ -96,9 +93,14 @@
         <div class="footer-container">
             <a href="#" class="footer-link" id="contact-button">Contato</a>
             <div class="container-social-network">
-                <a href="https://www.facebook.com/robert.alyssom" target="_blank" class="footer-link_social-network"><img src="../img/icons/face-logo - Copia_resized.png" class="footer-img" alt="logo do facebook"></a>
-                <a href="https://www.linkedin.com/in/roberto-alyssom-de-paiva-054a29249/" target="_blank" class="footer-link_social-network"><img src="../img/icons/linkedin-logo_resized.png" class="footer-img" alt="logo do linked"></a>
-                <a href="https://github.com/robertoalyssom" target="_blank" class="footer-link_social-network"><img src="../img/icons/github-logo_resized.png" class="footer-img" alt="logo do github"></a>
+                <a href="https://www.facebook.com/robert.alyssom" target="_blank"
+                    class="footer-link_social-network"><img src="../img/icons/face-logo - Copia_resized.png"
+                        class="footer-img" alt="logo do facebook"></a>
+                <a href="https://www.linkedin.com/in/roberto-alyssom-de-paiva-054a29249/" target="_blank"
+                    class="footer-link_social-network"><img src="../img/icons/linkedin-logo_resized.png"
+                        class="footer-img" alt="logo do linked"></a>
+                <a href="https://github.com/robertoalyssom" target="_blank" class="footer-link_social-network"><img
+                        src="../img/icons/github-logo_resized.png" class="footer-img" alt="logo do github"></a>
             </div>
         </div>
         <p class="footer-text">Coded with by <span class="footer-text_span">Roberto Paiva</span></p>
@@ -113,4 +115,3 @@
     <script src="../js/projects/cardMaker.js" type="module"></script>
     <script src="../js/projects/writeCard.js" type="module"></script>
 </body>
-

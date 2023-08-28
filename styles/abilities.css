@@ -1,155 +1,156 @@
 .abilities {
-    padding: 1.5rem 0;
-    margin: 0 1rem;
-    text-align: center;
-    color: var(--white);
+  padding: 1.5rem 0;
+  margin: 0 1rem;
+  text-align: center;
+  color: var(--white);
 }
 
 .abilities-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .abilities-title {
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 2.7rem;
-    margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Card */
 .abilities-card {
-    position: relative;
-    padding: 1rem 0;
-    width: 47%;
-    border-radius: 5px;
-    background: rgba(0, 0, 0, .2);
-    transition: .2s;
+  position: relative;
+  padding: 1rem 0;
+  width: 47%;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  transition: outline 0.2;
 }
 
 .card-html:hover,
 .card-git:hover,
 .card-css:hover,
 .card-js:hover {
-    box-shadow: 0px 0px 103px 10px var(--red);
-    border: 1.1px solid var(--full-red);
+  box-shadow: 0px 0px 103px 10px var(--red);
+  outline: 1.1px solid red;
 }
 
 .card-html:hover,
 .card-git:hover {
-    background-color: var(--light-orange);
-    color: var(--black);
+  background-color: var(--light-orange);
+  color: var(--black);
 }
 
 .card-css:hover {
-    background-color: var(--light-blue);
-    color: var(--black);
+  background-color: var(--light-blue);
+  color: var(--black);
 }
 
 .card-js:hover {
-    background-color: var(--light-yellow);
-    color: var(--black);
+  background-color: var(--light-yellow);
+  color: var(--black);
 }
 
 .abilities-card__img {
-    width: 80%;
+  width: 80%;
 }
 
 .img-git {
-    width: 75%;
-    margin: 2% 0;
+  width: 75%;
+  margin: 2% 0;
 }
 
 .abilities-card__title {
-    font-size: 1.5rem;
-    line-height: 1.8rem;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
 }
 
 @media screen and (min-width: 764px) {
-    .abilities {
-        margin: 0 3.5rem;
-        position: relative;
-        padding: 3rem 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+  .abilities {
+    margin: 0 3.5rem;
+    position: relative;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .abilities-title {
-        font-size: 2.5rem;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-    }
+  .abilities-title {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 
-    .abilities-container {
-        gap: 2rem;
-    }
+  .abilities-container {
+    gap: 2rem;
+  }
 
-    .abilities-card {
-        width: 20%;
-    }
+  .abilities-card {
+    width: 20%;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .abilities {
-        margin: 0 2.5rem;
-        padding: 5.5rem 0;
-    }
+  .abilities {
+    margin: 0 2.5rem;
+    padding: 5.5rem 0;
+  }
 
-    .abilities-title {
-        margin-bottom: 3.5rem;
-    }
+  .abilities-title {
+    margin-bottom: 3.5rem;
+  }
 
-    .abilities::before {
-        content: "";
-        display: inline-block;
-        position: absolute;
-        width: 50vw;
-        height: 2px;
-        background-color: var(--red);
-        top: 85px;
-        left: 50%;
-    }
+  .abilities::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 50vw;
+    height: 2px;
+    background-color: var(--red);
+    top: 85px;
+    left: 50%;
+  }
 
-    .abilities::after {
-        content: "";
-        display: inline-block;
-        position: absolute;
-        width: 50vw;
-        height: 2px;
-        background-color: var(--red);
-        bottom: 15px;
-        right: 50%;
-    }
+  .abilities::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 50vw;
+    height: 2px;
+    background-color: var(--red);
+    bottom: 15px;
+    right: 50%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .abilities {
-        margin: 0 4rem;
-        padding: 6rem 0;
-    }
+  .abilities {
+    margin: 0 4rem;
+    padding: 6rem 0;
+  }
 
-    .abilities::before {
-        content: "";
-        top: 65px;
-        left: 50%;
-    }
+  .abilities::before {
+    content: "";
+    top: 65px;
+    left: 50%;
+  }
 
-    .abilities::after {
-        content: "";
-        bottom: 5px;
-        right: 50%;
-    }
+  .abilities::after {
+    content: "";
+    bottom: 5px;
+    right: 50%;
+  }
 
-    .abilities-title {
-        margin-bottom: 4rem;
-    }
+  .abilities-title {
+    margin-bottom: 4rem;
+  }
 
-    .abilities-container {
-        flex-wrap: nowrap;
-        gap: 2rem;
-    }
+  .abilities-container {
+    flex-wrap: nowrap;
+    gap: 2rem;
+  }
 }

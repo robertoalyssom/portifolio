@@ -1,88 +1,89 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .8rem 1.3rem;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(10px);
-    z-index: 999;
-    box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.3rem;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  z-index: 999;
+  box-sizing: border-box;
 }
 
 .header-logo a {
-    display: flex;
-    margin-left: .8rem;
+  display: flex;
+  margin-left: 0.8rem;
 }
 
 .logo {
-    width: 13rem;
+  width: 13rem;
 }
 
 /* icon */
 .header-icon {
-    color: var(--white);
-    font-size: 2.5rem;
-    transition: .8s;
+  color: var(--white);
+  font-size: 2.5rem;
+  transition: 0.8s;
 }
 
 .header-icon:active {
-    color: var(--dark-grey);
+  color: var(--dark-grey);
+  transform: scale(0.8);
 }
 
 .sandwich-animation-active {
-    transform: rotate(90deg);
-    -ms-text-combine-horizontal: .5s;
+  transform: rotate(90deg);
+  -ms-text-combine-horizontal: 0.5s;
 }
 
 .header-navegation {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 770px) {
-    .header {
-        padding: 0 2rem;
-        height: 4rem;
-    }
+  .header {
+    padding: 0 2rem;
+    height: 4rem;
+  }
 
-    .header-navbar-button {
-        display: none;
-    }
+  .header-navbar-button {
+    display: none;
+  }
 
-    .header-navegation {
-        display: flex;
-        align-items: center;
-        font-size: 1.1rem;
-    }
+  .header-navegation {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+  }
 
-    .navegation-link {
-        color: var(--full-white);
-        font-weight: 400;
-        padding: 1.1rem .8rem;
-    }
+  .navegation-link {
+    color: var(--full-white);
+    font-weight: 400;
+    padding: 1.1rem 0.8rem;
+  }
 
-    .navegation-link:hover {
-        padding-bottom: 15px;
-        border-bottom: 5px solid var(--red);
-        color: var(--red);
-        transition: .3s;
-    }
+  .navegation-link:hover {
+    padding-bottom: 15px;
+    border-bottom: 5px solid var(--red);
+    color: var(--red);
+    transition: 0.3s;
+  }
 
-    .navegation-link:active {
-        border-bottom: 5px solid var(--grey);
-        color: var(--grey);
-    }
+  .navegation-link:active {
+    border-bottom: 5px solid var(--grey);
+    color: var(--grey);
+  }
 
-    .navegation-icon {
-        font-size: 1.5rem;
-    }
+  .navegation-icon {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .header {
-        padding: 0 4rem;
-    }
+  .header {
+    padding: 0 4rem;
+  }
 }
